@@ -64,7 +64,7 @@
     //Use this to add background color to the grid system section of page
     .grid__col--#{$i}.theme__colors {
         //the following if else clauses sets the bg color of the grid elements
-        @if ($i == 3) {
+        @if ($i == 2) {
          background-color: $grid-col-3;
      } @else if ($i == 4) {
          background-color: $grid-col-4;

@@ -395,6 +395,7 @@ th {
 }
 
 * {
+  border: 2px solid red;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -479,6 +480,7 @@ p {
 }
 
 .grid__col--2.theme__colors {
+  background-color: #DEB2EE;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -508,7 +510,6 @@ p {
 }
 
 .grid__col--3.theme__colors {
-  background-color: #DEB2EE;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -809,6 +810,8 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
