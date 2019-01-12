@@ -1,0 +1,44 @@
+
+//styles all element on the page
+* {
+    //border: 2px solid red;//for debug purposes
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+//.container styles the body of the web page
+.container {
+    width: 95%;
+    margin: auto;
+    font-family: $container-font, 'sans serif';
+    color: $container-color;
+    font-size: 1em;
+}
+
+//.card styles card-like section of web page 
+.card {
+    line-height: 2em;
+} 
+
+p {
+    line-height: 2em;
+}
+.blockquote {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+
+
+
+
+
