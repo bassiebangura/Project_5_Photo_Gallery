@@ -395,7 +395,6 @@ th {
 }
 
 * {
-  border: 2px solid red;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1154,12 +1153,6 @@ a:link {
 
 .img--frame {
   width: 100%;
-  padding: 0.75em;
-  border: 1px solid #ddd;
-}
-
-.img--avatar {
-  border-radius: 50%;
 }
 
 .btn--default {
@@ -1287,5 +1280,10 @@ input::-ms-input-placeholder {
 
 input::placeholder {
   text-align: left;
+}
+
+.search__box {
+  border-radius: 2px;
+  border: 1px solid #eee;
 }
 /*# sourceMappingURL=styles.css.map */
