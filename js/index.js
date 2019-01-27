@@ -3,10 +3,9 @@ $('#search__box').keyup(function(){
      if(value == ""){
          $('.image_gallery').show();
      } else {
-         $('.image_gallery').each(function(){
-             console.log($(this))
+         $('img').each(function(){
              let caption = $(this).attr("alt").toLowerCase();
-             (caption.indexOf(value) >= 0) ? $(this).show() : $(this).hide();
+             (caption.indexOf(value) >= 0) ? $(this).parents('a').parents('.image_gallery').show() : $(this).parents('a').parents('.image_gallery').hide();
          });
     };
  });
