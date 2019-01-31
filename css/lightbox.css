@@ -17,6 +17,18 @@ html.lb-disable-scrolling {
   display: none;
 }
 
+.lightboxOverlay, .lb-dataContainer, .lb-outerContainer, .lb-image {
+  width: 100% !important;
+}
+
+
+/*****   Media Query For LightBox  ******/
+@media (min-width: 560px) { 
+.lb-dataContainer, .lb-outerContainer {
+  width: 60% !important;
+  }
+}
+
 .lightbox {
   position: absolute;
   left: 0;
