@@ -10,8 +10,6 @@
                         $align-items: center);
                     
    }
-
-   @include add-theme-color($i);  
 }
 
 .grid__row {
@@ -36,7 +34,7 @@
             @include flexible($direction: row,
                         $justify-content: center);
         }
-       // @include add-theme-color($i);    
+          
     }
 }
 
