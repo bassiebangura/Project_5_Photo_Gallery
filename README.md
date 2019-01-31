@@ -1,0 +1,1 @@
+A TreeHouse Project. Involves using jquery and a jquery plugin.
